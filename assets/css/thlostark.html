@@ -1,0 +1,87 @@
+<html>
+<link rel="stylesheet" href="animations.css">
+<style>
+.push_button{
+	position:relative;
+	width:50px;
+	color:#FFF;
+	text-decoration:none;
+	border-radius:50px;
+	border:solid 1px #BAA27D;
+	background:#BAA27D;
+	text-align:center;
+	padding:20px 30px;
+	margin-top:50px;
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	-webkit-box-shadow: 0px 9px 0px #552F1C;
+    -moz-box-shadow: 0px 9px 0px #552F1C;
+    box-shadow: 0px 9px 0px #552F1C;
+}
+.push_button:active{
+    -webkit-box-shadow: 0px 2px 0px #BAA27D;
+    -moz-box-shadow: 0px 2px 0px #BAA27D;
+    box-shadow: 0px 0px 2px #BAA27D;
+    position:relative;
+    top:7px;
+}
+#bg{
+	background-size:100% 100%;
+	background-image:url(quesbg3.jpg);
+	background-repeat:no-repeat;
+}
+#div1{
+	position:relative;
+	height:100%;
+	width:50%;
+	float:left;
+	background-size: 100% 100%;
+	background-image:url('Door8.jpg');
+	background-repeat: no-repeat; 
+}
+#div2{
+	position:relative;
+	margin-left:50%;	
+	height:100%;
+	width:50%;
+	background-size: 100% 100%;
+	background-image:url('Door7.jpg');
+	background-repeat: no-repeat;
+	}
+#div3{
+	width: 100%;
+	height:100%;
+	background-size:100% 100%;
+	background-image:url('thelostark2.jpg');
+	background-repeat:no-repeat;
+}
+</style>
+<!--<script type="text/javascript" src="jquery-2.0.3.js"></script>
+<script>
+  $(document).ready(function(){
+  		setTimeout("jQuery('#div1').hide();", 7000);
+  		//setTimeout("jQuery('.slideRight').hide();", 7000);
+  });-->
+</script>
+	<body>
+		<div id="div3">
+			<span id="form1">
+				<center>
+					<input type="text" placeholder="Username" name="username">
+				</center>
+			</span>
+			<span id="form2">
+				<center>
+					<input type="text" placeholder="Password" name="password">
+				</center>
+			</span>
+				<div id="div1" class="slideLeft">
+				</div>
+
+				<div id="div2" class="slideRight">
+				</div>
+		</div>
+	</body>
+</html>
